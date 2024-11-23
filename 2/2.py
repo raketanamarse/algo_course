@@ -43,8 +43,8 @@ def count():
 
 
 def mas_change(dok, el, val):
-    mas[dok- 1][el] = val
-    print(mas[dok- 1][el])
+    mas[dok- 1][el-1] = val
+    print(mas[dok- 1][el-1])
     count()
 
 
